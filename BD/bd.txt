@@ -1,0 +1,14 @@
+SET GLOBAL time_zone = '+8:00';
+CREATE DATABASE CL3_PINEDA;
+USE CL3_PINEDA;
+
+CREATE TABLE Productos (
+id int NOT NULL AUTO_INCREMENT,
+nombre_Producto varchar(25),
+descripcion varchar(25),
+fechaReg datetime,
+ PRIMARY KEY (`id`)
+);
+
+
+insert into Productos values (1, "Gaseosa", "Inka Kola 3L", "2023-06-22");
